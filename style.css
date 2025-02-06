@@ -124,14 +124,17 @@ section{
 }
 
 main{
-    width: 100%;
-    height: auto;
-    display: grid;
-    grid-template-columns: repeat(4,3fr);
-    gap: 12px 12px;
-    padding: 24px ;
-    justify-items: center;
-    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px 6px;
+    margin: 0 32px;
+    padding: 24px 0;
+    justify-content: space-around;
+}
+
+main div{
+    width: 286px;
+    height: 286px;
 }
 
 .photo1{
@@ -143,48 +146,36 @@ main{
 }
 
 .photo2{
-    width: 286px;
-    height: 286px;
     background-image: url(./assets/travel/luke-stackpoole-ubSUwrr04Ks-unsplash.jpg);
     background-size: cover;
     background-position: 50%;
 }
 
 .photo3{
-    width: 286px;
-    height: 286px;
     background-image: url(./assets/travel/cristina-gottardi-_yObqh6k9SM-unsplash.jpg);
     background-size: cover;
     background-position: 50%;
 }
 
 .photo4{
-    width: 286px;
-    height: 286px;
     background-image: url(./assets/travel/david-kohler-VFRTXGw1VjU-unsplash.jpg);
     background-size: cover;
     background-position: 50%;
 }
 
 .photo5{
-    width: 286px;
-    height: 286px;
     background-image: url(./assets/travel/herr-bohn-ifSQkr5NHeU-unsplash.jpg);
     background-size: cover;
     background-position: 50%;
 }
 
 .photo6{
-    width: 286px;
-    height: 286px;
     background-image: url(./assets/travel/glauber-sampaio-le2Ohc3TRS0-unsplash.jpg);
     background-size: cover;
     background-position: 50%;
 }
 
 .photo7{
-    width: 286px;
-    height: 286px;
     background-image: url(./assets/travel/jezael-melgoza-7H77FWkK_x4-unsplash.jpg);
     background-size: cover;
     background-position: 50%;
@@ -193,41 +184,74 @@ main{
 
 
 .photo8{
-    width: 286px;
-    height: 286px;
     background-image: url(./assets/travel/clay-banks-hwLAI5lRhdM-unsplash.jpg);
     background-size: cover;
     background-position: 50%;
 }
 
 .photo9{
-    width: 286px;
-    height: 286px;
     background-image: url(./assets/travel/sabrina-mazzeo-g-krQzQo9mI-unsplash.jpg);
     background-size: cover;
     background-position: 50%;
 }
 
 .photo10{
-    width: 286px;
-    height: 286px;
     background-image: url(./assets/travel/luke-stackpoole-mOEqOtmuPG8-unsplash.jpg);
     background-size: cover;
     background-position: 50%;
 }
 
 .photo11{
-    width: 286px;
-    height: 286px;
     background-image: url(./assets/travel/ryan-spencer-Um9AkOiIDcU-unsplash.jpg);
     background-size: cover;
     background-position: 50%;
 }
 
 .photo12{
-    width: 286px;
-    height: 286px;
     background-image: url(./assets/travel/marialaura-gionfriddo-II3Vo7MJ9Z0-unsplash.jpg);
     background-size: cover;
     background-position: 50%;
+}
+
+.photo13{
+    background-image: url(./assets/travel/imagem1.avif);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.photo14{
+    background-image: url(./assets/travel/imagem2.avif);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.photo15{
+    background-image: url(./assets/travel/imagem3.avif);
+    background-size: cover;
+    background-position: 50%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 32px;
+    color: #6C6C6C;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+}
+
+.terms{
+    cursor: pointer;
+}
+
+.terms:hover{
+    color: #EF5F4C;
+}
+
+.privacy{
+    cursor: pointer;
+}
+
+.privacy:hover{
+    color: #EF5F4C;
 }
