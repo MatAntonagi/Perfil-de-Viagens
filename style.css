@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #d9d9d9;
+    padding: 20px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #EF5F4C;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    padding: 0 4px;
+    margin: 0 8px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 160%;
+    color: #6C6C6C;
+    cursor: pointer;
+}
+
+li:hover{
+    color: #EF5F4C;
+}
+
+.user-photo{
+    background-image: url(./assets/profile/pessoa4.jpg);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-size: contain;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.user-photo:hover{
+    width: 70px;
+    height: 70px;
+}
+
+section{
+    width: 100%;
+    height: 240px;
+    background-color: #d9d9d9;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about{
+    width: 592px;
+    height: 176px;
+    display: flex;
+    align-items: center;
+}
+
+.photo-profile{
+    width: 176px;
+    height: 176px;
+    border-radius: 50%;
+    background-image: url(./assets/profile/pessoa4.jpg);
+    background-size: contain;
+    margin-right: 32px
+}
+
+#profile{
+    width: 348px;
+}
+
+.name{
+    padding-bottom: 8px;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Poppins",sans-serif;
+}
+
+.bio{
+    font-size: 14px;
+    line-height: 170%;
+}
+
+.icons{
+    width: 280px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    color: #6C6C6C;
+}
+
+.icons i{
+    color: #EF5F4C;
+    width: 24px;
+    height: 24px;
+    font-size: 20px;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4,3fr);
+    gap: 12px 12px;
+    padding: 24px ;
+    justify-items: center;
+    
+}
+
+.photo1{
+    width: 286px;
+    height: 286px;
+    background-image: url(./assets/travel/aditya-vyas-kBkjgAeT5r4-unsplash.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.photo2{
+    width: 286px;
+    height: 286px;
+    background-image: url(./assets/travel/luke-stackpoole-ubSUwrr04Ks-unsplash.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.photo3{
+    width: 286px;
+    height: 286px;
+    background-image: url(./assets/travel/cristina-gottardi-_yObqh6k9SM-unsplash.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.photo4{
+    width: 286px;
+    height: 286px;
+    background-image: url(./assets/travel/david-kohler-VFRTXGw1VjU-unsplash.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.photo5{
+    width: 286px;
+    height: 286px;
+    background-image: url(./assets/travel/herr-bohn-ifSQkr5NHeU-unsplash.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.photo6{
+    width: 286px;
+    height: 286px;
+    background-image: url(./assets/travel/glauber-sampaio-le2Ohc3TRS0-unsplash.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.photo7{
+    width: 286px;
+    height: 286px;
+    background-image: url(./assets/travel/jezael-melgoza-7H77FWkK_x4-unsplash.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+
+
+.photo8{
+    width: 286px;
+    height: 286px;
+    background-image: url(./assets/travel/clay-banks-hwLAI5lRhdM-unsplash.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.photo9{
+    width: 286px;
+    height: 286px;
+    background-image: url(./assets/travel/sabrina-mazzeo-g-krQzQo9mI-unsplash.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.photo10{
+    width: 286px;
+    height: 286px;
+    background-image: url(./assets/travel/luke-stackpoole-mOEqOtmuPG8-unsplash.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.photo11{
+    width: 286px;
+    height: 286px;
+    background-image: url(./assets/travel/ryan-spencer-Um9AkOiIDcU-unsplash.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.photo12{
+    width: 286px;
+    height: 286px;
+    background-image: url(./assets/travel/marialaura-gionfriddo-II3Vo7MJ9Z0-unsplash.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
